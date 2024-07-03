@@ -40,8 +40,8 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: #3882F6;
-    font-size: 16px;
-    padding: 5px 25px;
+    font-size: 18px;
+    padding: 5px 30px;
     border-radius: 8px;
     transition-duration: 0.7s;
 }
@@ -69,8 +69,6 @@ button:hover{
 .right-links{
     display: flex;
     gap: 15px;
-    
-
 }
 
 /* Hero */
@@ -143,4 +141,81 @@ button:hover{
 .info-image-text img {
     border-radius: 25px;
     border: 5px solid #3882F6;
+}
+
+/* Quote Section */
+
+.two { 
+    background-color: #E5E7EB;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 66%;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 800;
+    width: 66%;
+    text-align: end;
+}
+
+/* CTA */
+
+.three { 
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+}
+
+.action-title{
+    font-size: 24px;
+    color:#F9FAF8;
+    padding-bottom: 5px;
+}
+
+.action-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up.button {
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+   
 }
